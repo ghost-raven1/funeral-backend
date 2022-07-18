@@ -18,7 +18,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::usluga.usluga",
-      "inversedBy": "tipy_uslugs"
+      "mappedBy": "tipy_uslugs"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "usluga",
     "pluralName": "uslugas",
-    "displayName": "Услуга"
+    "displayName": "Услуга",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,21 +22,20 @@
       "type": "decimal"
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
-    },
-    "count": {
-      "type": "integer"
+      ]
     },
     "tipy_uslugs": {
       "type": "relation",

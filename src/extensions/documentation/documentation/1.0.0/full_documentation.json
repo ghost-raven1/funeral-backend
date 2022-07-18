@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-18T08:26:37.910Z"
+    "x-generation-date": "2022-07-18T09:01:32.651Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2076,9 +2076,6 @@
                                                                   }
                                                                 }
                                                               }
-                                                            },
-                                                            "count": {
-                                                              "type": "integer"
                                                             },
                                                             "tipy_uslugs": {
                                                               "type": "object",
@@ -4409,9 +4406,6 @@
                                                               }
                                                             }
                                                           },
-                                                          "count": {
-                                                            "type": "integer"
-                                                          },
                                                           "tipy_uslugs": {
                                                             "type": "object",
                                                             "properties": {
@@ -5597,9 +5591,6 @@
                                         }
                                       }
                                     }
-                                  },
-                                  "count": {
-                                    "type": "integer"
                                   },
                                   "tipy_uslugs": {
                                     "type": "object",
@@ -7929,9 +7920,6 @@
                                       }
                                     }
                                   }
-                                },
-                                "count": {
-                                  "type": "integer"
                                 },
                                 "tipy_uslugs": {
                                   "type": "object",
@@ -11941,9 +11929,6 @@
                                                                               }
                                                                             }
                                                                           },
-                                                                          "count": {
-                                                                            "type": "integer"
-                                                                          },
                                                                           "tipy_uslugs": {
                                                                             "type": "object",
                                                                             "properties": {
@@ -15055,9 +15040,6 @@
                                                                             }
                                                                           }
                                                                         },
-                                                                        "count": {
-                                                                          "type": "integer"
-                                                                        },
                                                                         "tipy_uslugs": {
                                                                           "type": "object",
                                                                           "properties": {
@@ -15782,9 +15764,6 @@
                   ],
                   "example": "string or id"
                 }
-              },
-              "count": {
-                "type": "integer"
               },
               "tipy_uslugs": {
                 "type": "array",
@@ -16597,9 +16576,6 @@
                         }
                       }
                     },
-                    "count": {
-                      "type": "integer"
-                    },
                     "tipy_uslugs": {
                       "type": "object",
                       "properties": {
@@ -17395,9 +17371,6 @@
                                                       }
                                                     }
                                                   }
-                                                },
-                                                "count": {
-                                                  "type": "integer"
                                                 },
                                                 "tipy_uslugs": {
                                                   "type": "object",
@@ -19711,9 +19684,6 @@
                       }
                     }
                   },
-                  "count": {
-                    "type": "integer"
-                  },
                   "tipy_uslugs": {
                     "type": "object",
                     "properties": {
@@ -20509,9 +20479,6 @@
                                                     }
                                                   }
                                                 }
-                                              },
-                                              "count": {
-                                                "type": "integer"
                                               },
                                               "tipy_uslugs": {
                                                 "type": "object",
@@ -24044,9 +24011,6 @@
                                                                 }
                                                               }
                                                             },
-                                                            "count": {
-                                                              "type": "integer"
-                                                            },
                                                             "tipy_uslugs": {
                                                               "type": "object",
                                                               "properties": {
@@ -26413,9 +26377,6 @@
                                                                 }
                                                               }
                                                             }
-                                                          },
-                                                          "count": {
-                                                            "type": "integer"
                                                           },
                                                           "tipy_uslugs": {
                                                             "type": "object",
