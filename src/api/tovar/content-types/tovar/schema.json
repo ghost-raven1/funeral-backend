@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tovars",
+  "info": {
+    "singularName": "tovar",
+    "pluralName": "tovars",
+    "displayName": "Товар"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "count": {
+      "type": "integer"
+    },
+    "Kategorii": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::kategorii.kategorii",
+      "inversedBy": "tovars"
+    },
+    "zakaz": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::zakaz.zakaz",
+      "inversedBy": "tovars"
+    }
+  }
+}

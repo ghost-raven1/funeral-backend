@@ -1,0 +1,9 @@
+'use strict';
+
+/**
+ * tovar router.
+ */
+
+const { createCoreRouter } = require('@strapi/strapi').factories;
+
+module.exports = createCoreRouter('api::tovar.tovar');

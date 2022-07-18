@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uslugas",
+  "info": {
+    "singularName": "usluga",
+    "pluralName": "uslugas",
+    "displayName": "Услуга"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "count": {
+      "type": "integer"
+    },
+    "tipy_uslugs": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tipy-uslug.tipy-uslug",
+      "inversedBy": "uslugas"
+    },
+    "zakaz": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::zakaz.zakaz",
+      "inversedBy": "uslugas"
+    }
+  }
+}

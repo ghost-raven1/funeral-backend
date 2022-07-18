@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zakazs",
+  "info": {
+    "singularName": "zakaz",
+    "pluralName": "zakazs",
+    "displayName": "Заказ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tovars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tovar.tovar",
+      "mappedBy": "zakaz"
+    },
+    "uslugas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::usluga.usluga",
+      "mappedBy": "zakaz"
+    },
+    "summa": {
+      "type": "decimal"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "date": {
+      "type": "date"
+    },
+    "place": {
+      "type": "string"
+    },
+    "wish": {
+      "type": "richtext"
+    }
+  }
+}

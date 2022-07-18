@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kategoriis",
+  "info": {
+    "singularName": "kategorii",
+    "pluralName": "kategoriis",
+    "displayName": "Категории Товаров",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "tovars": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tovar.tovar",
+      "inversedBy": "Kategorii"
+    }
+  }
+}
