@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "filials",
+  "info": {
+    "singularName": "filial",
+    "pluralName": "filials",
+    "displayName": "Филиал",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "address": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "map_link": {
+      "type": "string"
+    }
+  }
+}
