@@ -2,14 +2,15 @@
   "collectionName": "components_usluga_uslugas",
   "info": {
     "displayName": "Usluga",
-    "icon": "address-book"
+    "icon": "address-book",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "zakazs": {
+    "uslugas": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::zakaz.zakaz"
+      "target": "api::usluga.usluga"
     }
   }
 }
