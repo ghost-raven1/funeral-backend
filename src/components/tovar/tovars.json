@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_tovar_tovars",
+  "info": {
+    "displayName": "Tovars",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "tovars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tovar.tovar"
+    }
+  }
+}

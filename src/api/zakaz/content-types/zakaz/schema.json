@@ -12,18 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "tovars": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::tovar.tovar",
-      "mappedBy": "zakaz"
-    },
-    "uslugas": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::usluga.usluga",
-      "mappedBy": "zakaz"
-    },
     "summa": {
       "type": "decimal"
     },
@@ -41,6 +29,18 @@
     },
     "wish": {
       "type": "richtext"
+    },
+    "Tovars": {
+      "type": "dynamiczone",
+      "components": [
+        "tovar.tovars"
+      ]
+    },
+    "Uslugas": {
+      "type": "dynamiczone",
+      "components": [
+        "usluga.usluga"
+      ]
     }
   }
 }

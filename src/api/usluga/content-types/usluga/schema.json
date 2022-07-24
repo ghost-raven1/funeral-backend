@@ -42,12 +42,6 @@
       "relation": "manyToMany",
       "target": "api::tipy-uslug.tipy-uslug",
       "inversedBy": "uslugas"
-    },
-    "zakaz": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::zakaz.zakaz",
-      "inversedBy": "uslugas"
     }
   }
 }
