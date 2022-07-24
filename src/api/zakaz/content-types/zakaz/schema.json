@@ -41,6 +41,9 @@
     },
     "date": {
       "type": "string"
+    },
+    "phone": {
+      "type": "string"
     }
   }
 }
