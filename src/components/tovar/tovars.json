@@ -1,8 +1,9 @@
 {
   "collectionName": "components_tovar_tovars",
   "info": {
-    "displayName": "Tovars",
-    "icon": "address-card"
+    "displayName": "tovar",
+    "icon": "folder-plus",
+    "description": ""
   },
   "options": {},
   "attributes": {
