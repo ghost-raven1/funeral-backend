@@ -21,9 +21,6 @@
     "email": {
       "type": "email"
     },
-    "date": {
-      "type": "date"
-    },
     "place": {
       "type": "string"
     },
@@ -41,6 +38,9 @@
       "components": [
         "usluga.usluga"
       ]
+    },
+    "date": {
+      "type": "string"
     }
   }
 }
