@@ -1,7 +1,14 @@
+// module.exports = ({ env }) => ({
+//   proxy: true,
+//   url: env('API'),
+//   app: {
+//     keys: env.array('APP_KEYS')
+//   },
+// })
 module.exports = ({ env }) => ({
-  proxy: true,
-  url: env('API'),
+  host: env('HOST', '0.0.0.0'),
+  port: env.int('PORT', 1337),
   app: {
-    keys: env.array('APP_KEYS')
+    keys: env.array('APP_KEYS'),
   },
-})
+});
